@@ -1,0 +1,9 @@
+{
+    "blogs":[
+        { "title": "Govind's blogs", "body": "vashs as hasas shasasvh", "author": "Govind", "id": 1 },
+        { "title": "Ravi's blogs", "body": "vashs as hasas shasasvh", "author": "ravi", "id": 2 },
+        { "title": "Monika's blogs", "body": "vashs as hasas shasasvh", "author": "Monika", "id": 3 },
+        { "title": "Monika's blogs", "body": "vashs as hasas shasasvh", "author": "shayam", "id": 4 }
+    
+    ]
+}
