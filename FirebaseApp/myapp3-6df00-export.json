@@ -1,0 +1,1625 @@
+{
+  "Cmocktest1": [
+    null,
+    {
+      "answer": "C)  rem = fmod(3.14, 2.1);",
+      "choice1": "A)  rem = 3.14 % 2.1;",
+      "choice2": "B) rem = modf(3.14, 2.1);",
+      "choice3": "C)  rem = fmod(3.14, 2.1);",
+      "choice4": "D) Remainder cannot be obtain in floating point division.",
+      "question": "Q1: Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ?"
+    },
+    {
+      "answer": "B) External, Internal and None",
+      "choice1": "A) Internal and External",
+      "choice2": "B) External, Internal and None",
+      "choice3": "C) External and None",
+      "choice4": "D) Internal",
+      "question": "Q2: What are the types of linkages?"
+    },
+    {
+      "answer": "A) ceil(1.66)",
+      "choice1": "A) ceil(1.66)",
+      "choice2": "B)  floor(1.66)",
+      "choice3": "C) roundup(1.66)",
+      "choice4": "D) roundto(1.66)",
+      "question": "Q3: How would you round off a value from 1.66 to 2.0?"
+    },
+    {
+      "answer": "C) Float",
+      "choice1": "A) Character",
+      "choice2": "B) Integer",
+      "choice3": "C) Float",
+      "choice4": "D) enum",
+      "question": "Q4: Which of the following cannot be checked in a switch-case statement?"
+    },
+    {
+      "answer": "A) * / % + - =",
+      "choice1": "A) * / % + - =",
+      "choice2": "B)  = * / % + -",
+      "choice3": "C) / * % - + =",
+      "choice4": "D) * % / - + =",
+      "question": "Q5: Which of the following is the correct order of evaluation for the below expression? \n z = x + y * z / 4 % 2 - 1"
+    },
+    {
+      "answer": "C) max = a>b ? a>c?a:c:b>c?b:c",
+      "choice1": "A) a>b ? c=30 : c=40;",
+      "choice2": "B) a>b ? c=30;",
+      "choice3": "C) max = a>b ? a>c?a:c:b>c?b:c",
+      "choice4": "D) return (a>b)?(a:b)",
+      "question": "Q6: Which of the following is the correct usage of conditional operators used in C?"
+    },
+    {
+      "answer": "D) reture",
+      "choice1": "A) switch",
+      "choice2": "B) goto ",
+      "choice3": "C) go back",
+      "choice4": "D) reture",
+      "question": "Q7: The keyword used to transfer control from a function back to the calling function is"
+    },
+    {
+      "answer": "A) Representation of NULL pointer",
+      "choice1": "A) Representation of NULL pointer",
+      "choice2": "B) Representation of void pointer",
+      "choice3": "C) Error",
+      "choice4": "D) None of above",
+      "question": "Q8: What is (void*)0?"
+    },
+    {
+      "answer": "A) *",
+      "choice1": "A) *",
+      "choice2": "B) &",
+      "choice3": "C) &&",
+      "choice4": "D) ||",
+      "question": "Q9: The operator used to get value at address stored in a pointer variable is"
+    },
+    {
+      "answer": "B) strnset()",
+      "choice1": "A) strinit()",
+      "choice2": "B) strnset()",
+      "choice3": "C) strset()",
+      "choice4": "D) strcset()",
+      "question": "Q10: Which of the following function sets first n characters of a string to a given character?"
+    }
+  ],
+  "Cmocktest2": [
+    null,
+    {
+      "answer": "C) 0, 2, 1",
+      "choice1": "A) 0, 1, 2",
+      "choice2": "B)  1, 2, 3",
+      "choice3": "C) 0, 2, 1",
+      "choice4": "D) 1, 3, 2",
+      "question": "Q1: What is the output of the program given below ? \n\n #include<stdio.h> \n int main() \n { \n  enum status { pass, fail, atkt}; \n    enum status stud1, stud2, stud3; \n   stud1 = pass;  \n    stud2 = atkt; \n    stud3 = fail; \n    printf(\"%d, %d, %d\", stud1, stud2, stud3); \n   return 0;  \n }"
+    },
+    {
+      "answer": "A) 20",
+      "choice1": "A) 20",
+      "choice2": "B) 0 ",
+      "choice3": "C) Garbage Value",
+      "choice4": "D) Error",
+      "question": "Q2: What is the output of the program? \n\n #include<stdio.h> \n int main() \n { \n     extern int a; \n     printf(\"%d\", a); \n     return 0; \n } \n int a=20; "
+    },
+    {
+      "answer": "A) -2, 3, 1, 1",
+      "choice1": "A) -2, 3, 1, 1",
+      "choice2": "B) 2, 3, 1, 2",
+      "choice3": "C) 1, 2, 3, 1",
+      "choice4": "D) 3, 3, 1, 2",
+      "question": "Q3: What will be the output of the program? \n\n #include<stdio.h> \n int main() \n { \n  int i=-3, j=2, k=0, m; \n  m = ++i && ++j && ++k; \n  printf(\"%d, %d, %d, %d\n\", i, j, k, m); \n   return 0; }"
+    },
+    {
+      "answer": "C) fff8",
+      "choice1": "A) ffff",
+      "choice2": "B) 0 ",
+      "choice3": "C) fff8",
+      "choice4": "D) Error",
+      "question": "Q4: Assuming, integer is 2 byte, What will be the output of the program? \n\n  #include<stdio.h> \n int main() \n { \n  printf(\"%x\n\", -2<<2); \n return 0; \n }"
+    },
+    {
+      "answer": "D) 25, 4",
+      "choice1": "A) 10, 4",
+      "choice2": "B) 5, 2",
+      "choice3": "C) 2, 5",
+      "choice4": "D) 25, 4",
+      "question": "Q5: What will be the output of the program? \n #include<stdio.h> \n void fun(int*, int*); \n int main() { \n  int i=5, j=2;  \n  fun(&i, &j); \n  printf(\"%d, %d\", i, j); \n   return 0;  } \n void fun(int *i, int *j) { \n  *i = *i**i; \n  *j = *j**j; } "
+    },
+    {
+      "answer": "C) Redeclaration of a",
+      "choice1": "A) Missing parenthesis in return statement",
+      "choice2": "B) The function should be defined as int f(int a, int b) ",
+      "choice3": "C) Redeclaration of a",
+      "choice4": "D) None of above",
+      "question": "Q6: Point out the error in the program \n\n f(int a, int b) \n { \n int a; \n a = 20; \n return a; \n }  "
+    },
+    {
+      "answer": "A) 30",
+      "choice1": "A) 30",
+      "choice2": "B) 27",
+      "choice3": "C) 9 ",
+      "choice4": "D) 3",
+      "question": "Q7: What will be the output of the program ? \n\n #include<stdio.h> \n int main() { \n int i=3, *j, k; \n  j = &i; \n  printf(\"%d\n\", i**j*i+*j); \n  return 0; \n }"
+    },
+    {
+      "answer": "A) 8, 8, 8",
+      "choice1": "A) 8, 8, 8",
+      "choice2": "B) 4000, 4002, 4004",
+      "choice3": "C) 4000, 4004, 4008",
+      "choice4": "D) 4000, 4008, 4016",
+      "question": "Q8: What will be the output of the program If the integer is 4bytes long? \n #include<stdio.h> \n int main() \n { \n  int ***r, **q, *p, i=8; \n p = &i; \n q = &p; \n  r = &q; \n  printf(\"%d, %d, %d\n\", *p, **q, ***r); \n  return 0; }"
+    },
+    {
+      "answer": "A) A",
+      "choice1": "A) A",
+      "choice2": "B) a",
+      "choice3": "C) c ",
+      "choice4": "D) 65",
+      "question": "Q9: What will be the output of the program ? \n\n #include<stdio.h>  \n int main() \n { \n  char p[] = \"%d\n\"; \n  p[1] = 'c'; \n    printf(p, 65); \n  return 0; \n }"
+    },
+    {
+      "answer": "A) 6",
+      "choice1": "A) 6",
+      "choice2": "B) 12",
+      "choice3": "C) 7",
+      "choice4": "D) 2",
+      "question": "Q10: What will be the output of the program ? \n\n #include<stdio.h> \n #include<string.h> \n int main() \n { \n  printf(\"%d\n\", strlen(\"123456\")); \n return 0; \n }"
+    }
+  ],
+  "categories": [
+    null,
+    {
+      "desc": "C",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/myapp3-6df00.appspot.com/o/1%2F1680678738226.png?alt=media&token=3c0163b0-fff5-487f-9042-ea0f9bcea64e"
+    }
+  ],
+  "cppprogram": [
+    null,
+    {
+      "desc": "C++ Basic",
+      "thumbnail": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+    },
+    {
+      "desc": "OOPS Concepts",
+      "thumbnail": "https://desistoryhub.com/tutorials/c++/cpp.png"
+    },
+    {
+      "desc": "C++ Advanced",
+      "thumbnail": "https://desistoryhub.com/tutorials/c++/advanced.jpg"
+    },
+    {
+      "desc": "Programs",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/4%2F1606451108370.jpg?alt=media&token=2084e4ab-f1c7-48b6-b6d8-82201b4cabba"
+    },
+    {
+      "desc": "Code Compiler",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/5%2F1606451155371.jpg?alt=media&token=777249c3-3dd4-4315-9a1f-d72b032ad106"
+    },
+    {
+      "desc": "Interview Question",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/6%2F1606451195452.jpg?alt=media&token=4654c073-79a9-4874-9bad-61238b56559e"
+    },
+    {
+      "desc": "Quiz Tests",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/7%2F1606451263091.jpg?alt=media&token=b08b8f42-1094-4593-b6d5-05885c6e4f26"
+    }
+  ],
+  "cppprogramsecond": [
+    null,
+    {
+      "-MNH5wJUMnP7bbxkBiPt": {
+        "desc": "Introduction to C++",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Introduction.html",
+        "title": "1",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNH9xmRSWwdBXfHBHrf": {
+        "desc": "OOP in C++",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Object%20Oriented.html",
+        "title": "2",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHAA4KrLFEitgB45v3": {
+        "desc": "Basic Concepts of C++",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Basic%20Concepts.html",
+        "title": "3",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHAO59Nf8tgtrLRmAa": {
+        "desc": "Datatypes and Modifiers",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Datatypes%20and%20Modifiers.html",
+        "title": "4",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHB-E0IP-EY-ltt1NO": {
+        "desc": "Variables",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Variables.html",
+        "title": "5",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHBEKOMkCx-QUho6ZA": {
+        "desc": "Operators",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Operators.html",
+        "title": "6",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHBRop_xhPqZY6IVcp": {
+        "desc": "sizeOf and typedef Operators",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/SizeOf.html",
+        "title": "7",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHBuk5aQPeSmhoE3CI": {
+        "desc": "Decision making",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Decision.html",
+        "title": "8",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHF7WOPNQeRR2Yb3yT": {
+        "desc": "Loops in C++",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Loops.html",
+        "title": "7",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHFH7LmYy7PDwpINor": {
+        "desc": "Storage Classes",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Storage.html",
+        "title": "8",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHFSrKc34VDpcQwvBR": {
+        "desc": "Functions",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Functions.html",
+        "title": "9",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHFcE8-sVWCL5aS7b9": {
+        "desc": "Arrays",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Arrays.html",
+        "title": "10",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHFso23LDqvDa7oBwQ": {
+        "desc": "Strings",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Strings.html",
+        "title": "11",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      },
+      "-MNHG489H6z7CuKVBvWc": {
+        "desc": "Pointer",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/basic/Pointer.html",
+        "title": "11",
+        "url": "https://desistoryhub.com/tutorials/c++/basic/c.png"
+      }
+    },
+    {
+      "-MNM5UIJKdlzR40kIkAE": {
+        "desc": "Classes and Objects",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Classes%20and%20Objects.html",
+        "title": "1",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM5staQ1YC9BdnMm92": {
+        "desc": "Access Control",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Access.html",
+        "title": "2",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM68aNmO8u3dPqPWOL": {
+        "desc": "Defining Class and Creating Objects",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Defining.html",
+        "title": "3",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM6WBmlvBt347mdyCg": {
+        "desc": "Accessing Data Members of Class",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Accessing%20Data.html",
+        "title": "4",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM6kBm54zbQZm8RXum": {
+        "desc": "Member Functions of Classes",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Member.html",
+        "title": "5",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM76c2X14fjj07HSyU": {
+        "desc": "Types of Class Member Functions",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Types%20of%20Class.html",
+        "title": "6",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM7MwmTQvYmrAxhcSW": {
+        "desc": "Inline Functions",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Inline%20Functions.html",
+        "title": "7",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM7_ObqMXNzzHhX0yp": {
+        "desc": "Function Overloading",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Function%20Overloading.html",
+        "title": "8",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM7rRoz8DCSX9xOv5r": {
+        "desc": "Constructors and Destructors",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Constructors.html",
+        "title": "9",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM7rUHwBZvuJImjOJr": {
+        "desc": "Constructors and Destructors",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Constructors.html",
+        "title": "9",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM89DbT96RI1mDt22B": {
+        "desc": "Initializer List",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Initializer%20List.html",
+        "title": "10",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM8NJs6uTzKf9rne3Q": {
+        "desc": "Static Keyword ",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Static%20Keyword.html",
+        "title": "11",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM8cBq_MZULkZO1Elx": {
+        "desc": "const Keyword",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS Concepts/const Keyword.html",
+        "title": "12",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM8swrGbj-K8ZxMrus": {
+        "desc": "References",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/References.html",
+        "title": "13",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM96Tcz51fV5kYPXdk": {
+        "desc": "Copy Constructor",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Copy%20Constructor.html",
+        "title": "14",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      },
+      "-MNM9L2Jtowfc0FK6uqu": {
+        "desc": "Pointers to Class Members",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/OOPS%20Concepts/Pointers%20to%20Class.html",
+        "title": "15",
+        "url": "https://desistoryhub.com/tutorials/c++/cpp.png"
+      }
+    },
+    {
+      "-MNMDuVJPOo7q4JlcbZX": {
+        "desc": "Inheritance in C++",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Inheritance.html",
+        "title": "1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606707554228.jpg?alt=media&token=b6c96d32-2a13-415c-a6a3-06c448fe7cf0"
+      },
+      "-MNMEB8n_nTbrJGx_04X": {
+        "desc": "Types of Inheritance",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Types%20of%20Inheritance.html",
+        "title": "2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606707626848.jpg?alt=media&token=ceef6f74-4b90-4966-8322-40c9c5968e99"
+      },
+      "-MNMEa4Dq_tVaUUFdYdj": {
+        "desc": "Order of Constructor Call",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Order%20of%20Constructor.html",
+        "title": "3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606707732839.jpg?alt=media&token=342e650e-81ef-4f7d-9329-adf6eb3cd9dc"
+      },
+      "-MNMEoYQ4LDqeYrfv7XI": {
+        "desc": "Upcasting in C++",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Upcasting.html",
+        "title": "4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606707792370.jpg?alt=media&token=3a724e93-935d-4930-bea2-3218c9f7ebe7"
+      },
+      "-MNMFAvbVQPWcAb1CBWL": {
+        "desc": "Polymorphism and Function Overriding",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Polymorphism.html",
+        "title": "5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606707887984.jpg?alt=media&token=1c11af03-c31d-44ec-9307-9241c948b1cd"
+      },
+      "-MNMFVGsWD2-mL6uX3qZ": {
+        "desc": "Virtual Functions",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Virtual.html",
+        "title": "6",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606707971535.jpg?alt=media&token=8af3d16d-a056-44ed-98a5-60c14e8eee8c"
+      },
+      "-MNMFl2W_OKQEcJkBbCB": {
+        "desc": "Abstract Class",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Abstract%20Class.html",
+        "title": "7",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606708039535.jpg?alt=media&token=5a0064f8-d909-43aa-a13d-3fa93b10c520"
+      },
+      "-MNMG6kGGAuQtG-G9b53": {
+        "desc": "Operator Overloading ",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Operator%20Overloading.html",
+        "title": "8",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606708133041.jpg?alt=media&token=4ca962a5-0663-4877-b76f-0ef7d2d7793e"
+      },
+      "-MNMGTnVAIInuJ6XwIwk": {
+        "desc": "Operator Overloading Examples",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Operator%20Overloading%20Examples.html",
+        "title": "9",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606708227573.jpg?alt=media&token=feb543ab-3d9d-44ef-a46f-14dd71c0c82f"
+      },
+      "-MNMMHOVrNfzcqzSH8HC": {
+        "desc": "Memory Management",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Dynamic%20Memory.html",
+        "title": "10",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606709749859.jpg?alt=media&token=8c00959b-43de-4bc2-85ff-f24918c1f9d4"
+      },
+      "-MNMMgjto8RcJ-Oaok2M": {
+        "desc": "Multithreading in C++",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/Advanced/Multithreading.html",
+        "title": "11",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tech.appspot.com/o/3%2F1606709857715.jpg?alt=media&token=7189ee5a-f523-4953-9558-090001559fbc"
+      }
+    },
+    {
+      "-MNOiUVY9_9sVcoBpKm3": {
+        "desc": "Hello World Program",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Hello%20World%20Program.html",
+        "title": "1",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOilVOet3-KCh0_orb": {
+        "desc": "Print Number Entered by User",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Print%20Number%20Entered%20by%20User.html",
+        "title": "2",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOixIb995FlUqdaGWO": {
+        "desc": "Add Two Integers",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Add%20Two%20Integers.html",
+        "title": "3",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOjOkRh3hmhi0KWzTT": {
+        "desc": "Find Quotient and Remainder",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20Quotient%20and%20Remainder.html",
+        "title": "4",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOjbxEUwPRETMm0RZ6": {
+        "desc": "Find Size of Datatypes",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20Size%20of%20Datatypes.html",
+        "title": "5",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOjrSE0StAVYh1FXF-": {
+        "desc": "Swap Two Numbers",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Swap%20Two%20Numbers.html",
+        "title": "6",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOkALrBjReXBntYkMe": {
+        "desc": "Check Whether Number is Even or Odd",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Check%20Whether%20Number%20is%20Even%20or%20Odd.html",
+        "title": "7",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOkRayz7GoRqg1CNxX": {
+        "desc": "Check Vowel or Consonant.",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Check%20Whether%20a%20character%20is%20Vowel%20or%20Consonant..html",
+        "title": "8",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOkjQfxqHgNr00EVOh": {
+        "desc": "Find Largest Number Among Three",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20Largest%20Number%20Among%20Three%20Numbers.html",
+        "title": "9",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOmPhPru4OVnnYzLDG": {
+        "desc": "Find All Roots of a Quadratic Equation",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20All%20Roots%20of%20a%20Quadratic%20Equation.html",
+        "title": "10",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOmiYjrb55bwzxfG76": {
+        "desc": "Sum of Natural Numbers",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Sum%20of%20Natural%20Numbers.html",
+        "title": "11",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOmwqwJ2OF3YGwTHFZ": {
+        "desc": "Check Leap Year",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Check%20Leap%20Year.html",
+        "title": "12",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOnG-ZjVeKxtSw5DQC": {
+        "desc": "Find Factorial Number",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20Factorial.html",
+        "title": "13",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOnX99CZbTA-ubUCHO": {
+        "desc": "Generate Multiplication Table",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Generate%20Multiplication%20Table.html",
+        "title": "14",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOnkhOHRGhbZUVnXcl": {
+        "desc": "Display Fibonacci Series",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Display%20Fibonacci%20Series.html",
+        "title": "15",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOoQB0H8VWajY11l0z": {
+        "desc": "Find HCF using while loop",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20HCF%20using%20while%20loop.html",
+        "title": "16",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOoquDmHP3h8s8RRMU": {
+        "desc": "Find LCM using do while loop",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20LCM.html",
+        "title": "17",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOp_22GtC-ieAITG2M": {
+        "desc": "Reverse a Number",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Reverse%20a%20Number.html",
+        "title": "18",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOprkeqwmkFFSO0JpP": {
+        "desc": "Power of a Number",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Power%20of%20a%20Number.html",
+        "title": "19",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOqDxTyQajGhk7HWVF": {
+        "desc": "++ and -- Operator Overloading",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Increment%20++%20and%20Decrement%20--%20Operator%20Overloading.html",
+        "title": "20",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOqxCUETO56S8QoSEf": {
+        "desc": "Subtract Complex Number Using Operator Overloading",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Subtract%20Complex%20Number%20Using%20Operator%20Overloading.html",
+        "title": "21",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOs062e1jrIqRq03qP": {
+        "desc": "Find ASCII Value of a Character",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20ASCII%20Value%20of%20a%20Character.html",
+        "title": "22",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOsJFiu0LMmMUBgo9V": {
+        "desc": "Multiply Two Numbers",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Multiply%20Two%20Numbers.html",
+        "title": "23",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOsgzFVQs5qo_gfqnQ": {
+        "desc": "Number is Palindrome or Not",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Number%20is%20Palindrome%20or%20Not.html",
+        "title": "24",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOtWsk4dJBaEGKRy9M": {
+        "desc": "Number is Prime or Not",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Number%20is%20Prime%20or%20Not.html",
+        "title": "25",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOtrHUGnnPkqlCLUQK": {
+        "desc": "Display Prime Numbers Between Two Intervals",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Display%20Prime%20Numbers%20Between%20Two%20Intervals%20Using%20Functions.html",
+        "title": "26",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOxZTv34jN00YMLi4h": {
+        "desc": "Check Armstrong Number",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Check%20Armstrong%20Number.html",
+        "title": "27",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOy7Fvr4Y1zOE83qFM": {
+        "desc": "Display Armstrong Number Between Two Intervals",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Display%20Armstrong%20Number%20Between%20Two%20Intervals.html",
+        "title": "28",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOyNKTLemMJYZaG9X5": {
+        "desc": "Display Factors of a Number",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Display%20Factors%20of%20a%20Number.html",
+        "title": "29",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOycq947uTel8cujES": {
+        "desc": "Make a Simple Calculator",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Make%20a%20Simple%20Calculator.html",
+        "title": "30",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOyxcAGwHXZ5WCr1Vp": {
+        "desc": "Display Prime Numbers Between Two Intervals Using Functions",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Display%20Prime%20Numbers%20Between%20Two%20Intervals%20Using%20Functions.html",
+        "title": "31",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNOzsqHQ-AzS_aA0jL0": {
+        "desc": "Check Prime Number By Creating a Function",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Check%20Prime%20Number%20By%20Creating%20a%20Function.html",
+        "title": "32",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP-BbF2I67NQc7Modh": {
+        "desc": "Check Sum of Two Prime Numbers",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Check%20Sum%20of%20Two%20Prime%20Numbers.html",
+        "title": "33",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP-PqEKrP0CcAAnknp": {
+        "desc": "Find Sum of Natural Numbers using Recursion",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20Sum%20of%20Natural%20Numbers%20using%20Recursion.html",
+        "title": "34",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP-eaFOlF4pE-H4hY5": {
+        "desc": "Calculate Factorial of a Number Using Recursion",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Calculate%20Factorial%20of%20a%20Number%20Using%20Recursion.html",
+        "title": "35",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP-x1NXnZgCeWcOqLK": {
+        "desc": "Find H.C.F Using Recursion",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20H.C.F%20Using%20Recursion.html",
+        "title": "36",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP0P_6Z-9ZsbF-oXon": {
+        "desc": "Convert Binary to Decimal",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Convert%20Binary%20to%20Decimal.html",
+        "title": "36",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP0bNjg14bpdkZSfnU": {
+        "desc": "convert decimal number to binary",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/convert%20decimal%20number%20to%20binary.html",
+        "title": "37",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP0nFh5HjBtmxbyVXU": {
+        "desc": "Convert Octal Number to Decimal",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Convert%20Octal%20Number%20to%20Decimal.html",
+        "title": "38",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP1-IehdaD8-O7Quq4": {
+        "desc": "Convert Decimal Number to Octal",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Convert%20Decimal%20Number%20to%20Octal.html",
+        "title": "39",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP1E3iBoySPjW7E0y0": {
+        "desc": "Calculate Power Using Recursion",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Calculate%20Power%20Using%20Recursion.html",
+        "title": "40",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP1SfouWhLFZurrdoO": {
+        "desc": "Average of Numbers Using Arrays",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Calculate%20Average%20of%20Numbers%20Using%20Arrays.html",
+        "title": "41",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP1i-f6NqnZ_NPuQQC": {
+        "desc": "Find Largest Element of an Array",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20Largest%20Element%20of%20an%20Array.html",
+        "title": "42",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP20Ng3WSVFa649jxc": {
+        "desc": "Add Two Matrix Using Arrays",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Add%20Two%20Matrix%20Using%20Multi-dimensional%20Arrays.html",
+        "title": "43",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP2GmfxRaE-E6ohvI3": {
+        "desc": "Multiply Two Matrix Using Arrays",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Multiply%20Two%20Matrix%20Using%20Multi-dimensional%20Arrays.html",
+        "title": "44",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP2Uq9i8vkC4BJVa7r": {
+        "desc": "Find Transpose of a Matrix",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20Transpose%20of%20a%20Matrix.html",
+        "title": "45",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP2k5k9T-kYvngB0g_": {
+        "desc": "Remove all Characters in a String Except Alphabets",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Remove%20all%20Characters%20in%20a%20String%20Except%20Alphabets.html",
+        "title": "46",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP2xNzSs3l8_UyThiL": {
+        "desc": "Find the Length of a String",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Find%20the%20Length%20of%20a%20String.html",
+        "title": "47",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP3Bxu-ZoBM-SibHpf": {
+        "desc": "Concatenate Two Strings",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Concatenate%20Two%20Strings.html",
+        "title": "48",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      },
+      "-MNP3PKNFkapcqNgbl0a": {
+        "desc": "Copy String Object",
+        "htmlurl": "https://desistoryhub.com/tutorials/c++/program/Copy%20String%20Object.html",
+        "title": "49",
+        "url": "https://desistoryhub.com/tutorials/c++/program.jpg"
+      }
+    }
+  ],
+  "cprogram": [
+    null,
+    {
+      "desc": "C Basic",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588784223247.png?alt=media&token=117c794a-5cc2-4031-86c1-2b72049801ea"
+    },
+    {
+      "desc": "Function & Structure",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1588784251481.png?alt=media&token=41655fae-7a7d-46bf-abf1-22cf7e27addc"
+    },
+    {
+      "desc": "Pointer & Files",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1588784276754.jpg?alt=media&token=0e02c9fd-07b2-4543-881c-eee51bc2d61f"
+    },
+    {
+      "desc": "Programs",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/4%2F1588784300726.jpg?alt=media&token=4e28661b-00e5-4e04-bd9a-f04053548d6e"
+    },
+    {
+      "desc": "Code Compiler",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/5%2F1588784320148.jpg?alt=media&token=388eba7b-4f0a-4d5e-b8b6-c57815db414c"
+    },
+    {
+      "desc": "Interview Question",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/6%2F1588784361057.jpg?alt=media&token=ca642dea-6446-4bc4-b106-40a770eed606"
+    },
+    {
+      "desc": "Quiz Test",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/7%2F1588784388833.jpg?alt=media&token=6313cbf9-ff2b-41c5-a427-e903b3c4dadb"
+    }
+  ],
+  "cprogramcode": [
+    null,
+    {
+      "desc": "Basic Program",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589189137176.jpg?alt=media&token=af1c54d0-721d-4c93-8f67-5a0836736497"
+    },
+    {
+      "desc": "Advance Program",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589189178635.jpg?alt=media&token=8dc64adb-7422-43f8-842a-832538d865cc"
+    },
+    {
+      "desc": "Pattern  Program",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589527432594.png?alt=media&token=9c6c7e60-b253-4859-b2bd-5a320b8c621f"
+    }
+  ],
+  "cprogramcodesecond": [
+    null,
+    {
+      "-M78sdZDu9zCZyNGsvm4": {
+        "desc": "Displaying Hello World",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FHello%20World%20Program%20in%20C.html?alt=media&token=804b8673-f785-4d63-9074-fbbc3b26ba8b",
+        "title": "1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589303745342.jpg?alt=media&token=66ef7d82-0c31-4074-8494-a42c861760e9"
+      },
+      "-M7C6jC4sXzy5ztZrrkj": {
+        "desc": "Print an Integer",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FPrint%20an%20Integer.html?alt=media&token=864972ff-ab82-4483-8e2f-cca7d04689ab",
+        "title": "2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589358031955.jpg?alt=media&token=9cef8b33-b777-4c67-adb5-cdd646ce8b80"
+      },
+      "-M7C77zfl4ATuM6kBMc7": {
+        "desc": "Add Two Integers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FAdd%20Two%20Integers.JPG?alt=media&token=ad494574-79f3-4d49-ab37-723ea8f00200",
+        "title": "3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589358137652.jpg?alt=media&token=5f102ec7-1801-4d11-8ff5-32bf06eda117"
+      },
+      "-M7C7USKFc9YljfNotZ0": {
+        "desc": "Multiply Two Floating-Point Numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FMultiply%20Two%20Floating-Point%20Numbers.html?alt=media&token=779a11b6-6008-46f1-872e-8a08508fb4f7",
+        "title": "4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589358230497.jpg?alt=media&token=eca99168-e2ef-4bc8-8c23-035b7621112a"
+      },
+      "-M7C7zUH463XrVje3Ugu": {
+        "desc": "Integer is Positive or Negative",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fpositive%20or%20negative.html?alt=media&token=f0f655d5-baf5-45cb-bfa8-7d7961273529",
+        "title": "5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589358360955.jpg?alt=media&token=96c835b2-93c9-4da2-8db2-f28dd5edb6ff"
+      },
+      "-M7CQxTNazFXDdtLDIQW": {
+        "desc": "Largest of three input numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Flargest%20of%20three%20input%20numbers.html?alt=media&token=7a429371-5b23-4be1-a455-e1b83c33c995",
+        "title": "7",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589363331122.jpg?alt=media&token=d5010a3c-b870-4e06-994a-0336b0390dfc"
+      },
+      "-M7CRTM5cmZUP-AbuE5c": {
+        "desc": "Compute Quotient and Remainder",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FCompute%20Quotient%20and%20Remainder.html?alt=media&token=c234c983-d636-4a98-b8e6-2d2b7f2b64c4",
+        "title": "8",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589363466344.jpg?alt=media&token=8050c27f-7f5b-4d88-a0d1-13d5e220f0ac"
+      },
+      "-M7CThz3lCzfz_j1_XmN": {
+        "desc": "Count Digits in an Integer",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FCount%20Number%20of%20Digits%20in%20an%20Integer.html?alt=media&token=7b35245b-4d64-4b01-afb2-9efc39bdb12e",
+        "title": "9",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589364053929.jpg?alt=media&token=5fdb142d-defd-405a-afeb-17e600bae9bc"
+      },
+      "-M7CV-VnxXuT-LbalA96": {
+        "desc": "Calculate the Power of a Number",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FCalculate%20the%20Power%20of%20a%20Number.html?alt=media&token=0446549c-5d3c-4128-84a5-984eda4867ee",
+        "title": "10",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589364392611.jpg?alt=media&token=de4fa229-bf8c-45c8-a218-fb0da70fa83e"
+      },
+      "-M7CVFGIORPbTIPxnbKC": {
+        "desc": "Prime Numbers Between Two Intervals",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FPrime%20Numbers%20Between%20Two%20Intervals.html?alt=media&token=065e5916-54c5-4f01-893e-e432a56ff6f6",
+        "title": "11",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589364456960.jpg?alt=media&token=aad5e915-13b6-42bf-9f4c-704ed1ab334e"
+      },
+      "-M7CYVjrtmuazPnSJvj0": {
+        "desc": "Fibonacci series",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fdisplay%20Fibonacci%20series.html?alt=media&token=6559d89d-6ee8-44b0-b0c6-bc525741109c",
+        "title": "12",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589365310447.jpg?alt=media&token=c9e759b5-c8b6-4253-bbd8-b5093f56148b"
+      },
+      "-M7CaGhdAbMRpD6SoNmh": {
+        "desc": "Factorial number",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Ffactorial%20of%20number%20using%20Recursion.html?alt=media&token=fd53a7ff-c1ae-49d0-b6c5-2735509226f4",
+        "title": "13",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589366035458.jpg?alt=media&token=4c55f9ac-18a2-48df-a5fd-49b037ef2122"
+      },
+      "-M7CaWWe2UrECZRq7zGf": {
+        "desc": "Prime numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fprime%20numbers.html?alt=media&token=c6038a09-4ce0-46ec-b406-a1f03a9edff1",
+        "title": "14",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589366100417.jpg?alt=media&token=62319dff-0643-4668-bc96-05872f345d10"
+      },
+      "-M7CdAgP4p6Xk-hZSsR0": {
+        "desc": "Armstrong number",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FArmstrong%20number.html?alt=media&token=1887acb5-a9b1-4bb0-b3af-965503f71495",
+        "title": "15",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589366797296.jpg?alt=media&token=a32e6e35-d239-4950-9079-d065c1413421"
+      },
+      "-M7CfKUnwwRzCWrvZnjq": {
+        "desc": "Palindrome or Not",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FPalindrome%20number.html?alt=media&token=32ad9d19-23ca-4d1c-96d0-90e6751bfc13",
+        "title": "16",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589367361553.jpg?alt=media&token=1cd29dd3-c0e0-4aaa-add4-af40ddad4580"
+      },
+      "-M7CfzJ1M6pDwJs-XuF-": {
+        "desc": "Palindrome numbers in a given range",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FPalindrome%20numbers%20in%20a%20given%20range.html?alt=media&token=51e724f2-7acc-4c19-8260-5fbd34f8af87",
+        "title": "17",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589367533399.jpg?alt=media&token=6375bd9a-9c51-4c47-b970-bd7d6ea35d01"
+      },
+      "-M7CgD_NnCOlEoDyP5XE": {
+        "desc": "Even or Odd",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fnumber%20is%20even%20or%20odd.html?alt=media&token=d6e99063-aaa9-41c9-9545-abf61db75714",
+        "title": "18",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589367595656.jpg?alt=media&token=65424256-6257-43f1-bbff-2f0f3dac15d6"
+      },
+      "-M7CgKWppwaeLMDz1UCD": {
+        "desc": "ASCII value of a Character",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FASCII%20value%20of%20a%20Character.html?alt=media&token=a4299f63-ed58-4cff-8a61-032c224294fc",
+        "title": "19",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589367624527.jpg?alt=media&token=b7f4ebd4-aa39-424d-9786-52252c30c56b"
+      },
+      "-M7Cgxl2jRLaNXqsP9OX": {
+        "desc": "Size of data types",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fsize%20of%20data%20types.html?alt=media&token=efb9c94d-5584-4831-812f-de93bb272f56",
+        "title": "20",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589367788747.jpg?alt=media&token=f7e5f0a8-57a9-41d6-8525-1558cce2abf1"
+      },
+      "-M7ChHFrYTTtFrjlxDTI": {
+        "desc": "Display Characters from A to Z Using Loop",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FDisplay%20Characters%20from%20A%20to%20Z%20Using%20Loop.html?alt=media&token=d3e2a581-f8c4-4c3c-8a07-26acac44867b",
+        "title": "21",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589367871719.jpg?alt=media&token=a7f4cb02-9cf9-45d2-a177-270e0d8ece85"
+      },
+      "-M7CiCOJK88auWrEHCN4": {
+        "desc": "Alphabet is Vowel or Consonant",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FAlphabet%20is%20Vowel%20or%20Consonant.html?alt=media&token=ef230632-cfa3-4a0f-9680-a5d97938c9e2",
+        "title": "22",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589368115191.jpg?alt=media&token=47d0e9a1-6681-497a-977b-369c76fa1aca"
+      },
+      "-M7CiMuKanKrdenJ3_Pw": {
+        "desc": "Leap Year or Not",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FLeap%20Year.html?alt=media&token=9f8ed4dd-6ecc-485d-a2a2-5b5ced636921",
+        "title": "23",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589368158560.jpg?alt=media&token=86c1d029-8568-40d7-bf91-0cbce49c393e"
+      },
+      "-M7CivuzzbkMVygrWZQc": {
+        "desc": "Sum of First n Natural numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FSum%20of%20First%20n%20Natural%20numbers.html?alt=media&token=5fa3382e-7a6e-46f1-8475-e3ee31f3d2ea",
+        "title": "24",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589368305829.jpg?alt=media&token=85227120-870d-4ca1-8327-de45c6663bc6"
+      },
+      "-M7Cm6VuBOiUHT8mPYDe": {
+        "desc": "Find GCD of two Numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FFind%20GCD%20of%20two%20Numbers.html?alt=media&token=e51d98d5-4745-417f-bf11-86300722b910",
+        "title": "25",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589369139182.jpg?alt=media&token=f1b26297-9e95-4865-9b49-45561047f9ce"
+      },
+      "-M7CmJhdGLPUVcrnaQCr": {
+        "desc": "Find LCM of two Numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FFind%20LCM%20of%20two%20Numbers.html?alt=media&token=f1ce181c-054e-46b6-873d-54be44b48dd5",
+        "title": "26",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589369193512.jpg?alt=media&token=cd44cfd7-1ef9-48d7-9906-be38e06df211"
+      },
+      "-M7CmiERknElAMvs2zMc": {
+        "desc": "Character is an Alphabet or not",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FCheck%20Whether%20a%20Character%20is%20an%20Alphabet%20or%20not.html?alt=media&token=eb8863a3-9979-4298-b60e-e8e1ee624b08",
+        "title": "27",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589369298169.jpg?alt=media&token=9a77160f-df89-4899-be65-e5ba452edc69"
+      },
+      "-M7CnD-OaR3KT8261hQz": {
+        "desc": "Frequency of Characters in a String",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FFind%20the%20Frequency%20of%20Characters%20in%20a%20String.html?alt=media&token=ca1b633b-bece-4103-923b-fb319c033c8f",
+        "title": "28",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589369428112.jpg?alt=media&token=00c4bd2f-9e00-4834-8637-940252dbc709"
+      },
+      "-M7CnhOBYknW4Y5TIVLC": {
+        "desc": "Count vowels, consonants etc",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fcount%20vowels%2C%20consonants%20etc.html?alt=media&token=9eb63b47-d1cc-4526-aeaf-207a271c9c91",
+        "title": "29",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589369556616.jpg?alt=media&token=cc04098d-a2f4-41d6-8f80-7a924801ebca"
+      },
+      "-M7Co3D07LgEP24ujN_y": {
+        "desc": "Uppercase to lowercase string",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fconvert%20uppercase%20string%20to%20lowercase%20string.html?alt=media&token=b5ec1a75-2e9a-4f6f-85eb-e5f50fb789d6",
+        "title": "30",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589369651032.jpg?alt=media&token=902d643a-faf3-4a47-a870-74aa94925d34"
+      },
+      "-M7CoFjTaNcOeECU7qRy": {
+        "desc": "Lowercase to Uppercase string",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fconvert%20lowercase%20string%20to%20uppercase%20string.html?alt=media&token=0bf4f509-20d3-4c88-a569-24cf79ecc042",
+        "title": "31",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589369701616.jpg?alt=media&token=151578d4-6dfa-4d4f-a2d0-3d47d0ea498f"
+      },
+      "-M7DeUAyrbYfk4hwoFaw": {
+        "desc": "Sort strings in alphabetical order",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FSort%20set%20of%20strings%20in%20alphabetical%20order.html?alt=media&token=014ea6bf-42cb-4372-8216-2cedc7bd75e0",
+        "title": "32",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589383916516.jpg?alt=media&token=d6d692d6-5195-425b-b5e4-d584b8e79f88"
+      },
+      "-M7DeotJoG7DpwdhUzLq": {
+        "desc": "length of a String without using strlen()",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Flength%20of%20a%20String%20without%20using%20function%20strlen.html?alt=media&token=5953e306-cd78-4b5b-8fdb-b05406302fe3",
+        "title": "33",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589384005474.jpg?alt=media&token=36251e63-0e7f-4236-9129-27560f347e76"
+      },
+      "-M7Dg23SSfKsf2n1E-El": {
+        "desc": "String concatenation",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fconcatenate%20two%20strings%20without%20using%20strcat.PNG?alt=media&token=74b3daca-bfc6-4bc1-b32b-19859ed07a2b",
+        "title": "34",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589384325706.jpg?alt=media&token=b2ab1814-3da6-46da-a349-b96944579ca2"
+      },
+      "-M7DgkIDMvog571NFxra": {
+        "desc": "Remove Characters in String Except Alphabets",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FRemove%20Characters%20in%20String%20Except%20Alphabets.html?alt=media&token=18430500-2eb5-460c-abdf-1fb6272d2526",
+        "title": "35",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589384511098.jpg?alt=media&token=15099232-0c77-4964-9ac2-4c98d703da06"
+      },
+      "-M7DiybAnEtDwyr_fnjX": {
+        "desc": "Copy String Without Using strcpy",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FCopy%20String%20Without%20Using%20strcpy.html?alt=media&token=710b4ddd-3368-4a18-b405-d94b621b95d5",
+        "title": "36",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589385093931.jpg?alt=media&token=0af38150-4f33-43d2-8c42-b5049bc51160"
+      },
+      "-M7DjEIDdoO3ffAxyCBR": {
+        "desc": "Store Information Using Structure",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FStore%20Information%20of%20a%20Student%20Using%20Structure.html?alt=media&token=6d156f89-d11f-452f-af24-f08abe869553",
+        "title": "37",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589385162281.jpg?alt=media&token=34540e04-dd5b-4cd6-bb25-de5482f83ee3"
+      },
+      "-M7DjPuJu50uE79JH6we": {
+        "desc": "Add two distances in inch-feet system",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FAdd%20two%20distances%20in%20inch-feet%20system.html?alt=media&token=acc8e6ad-dcdf-4a95-847d-0f1c3008d5e3",
+        "title": "38",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589385209866.jpg?alt=media&token=5a8e8b7f-a0cf-44a5-b0ee-164984379862"
+      },
+      "-M7DjaWo12WHW-dr1K9U": {
+        "desc": "Add Two Complex Numbers using Function",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FAdd%20Two%20Complex%20Numbers%20by%20Passing%20Structure%20to%20a%20Function.html?alt=media&token=19e81340-7acc-4348-93ee-855d866d05fa",
+        "title": "39",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589385257410.jpg?alt=media&token=539fa941-399a-4175-94c8-61c4176b1d63"
+      },
+      "-M7DjzpKV9k4v1jhwKTi": {
+        "desc": "Difference Between Two Time Periods",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FCalculate%20Difference%20Between%20Two%20Time%20Periods.html?alt=media&token=4439322a-adf7-42d7-b9cd-bbe81d6e71f4",
+        "title": "40",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589385360948.jpg?alt=media&token=96fef14f-fff4-4db6-bb21-9f8f19c454a0"
+      },
+      "-M7DkH3gFpTDCHrpvIKm": {
+        "desc": "GCD Using Recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FFind%20GCD%20Using%20Recursion.html?alt=media&token=266ed12f-7822-4b23-b62c-a45aec983e42",
+        "title": "41",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589385435731.jpg?alt=media&token=787676f3-da9e-4945-8f27-a041bb2374d0"
+      },
+      "-M7DkUW5m_XuRpLvCEjl": {
+        "desc": "Factorial of a Number Using Recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FFactorial%20of%20a%20Number%20Using%20Recursion.html?alt=media&token=0bc46db7-92c1-4761-beff-b3fffbb4ed53",
+        "title": "42",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589385490923.jpg?alt=media&token=6cd9f401-96cb-41fd-915f-83f1270480a6"
+      },
+      "-M7DkeA2lVYef1ycTu8z": {
+        "desc": "Reverse a Sentence Using Recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FReverse%20a%20Sentence%20Using%20Recursion.html?alt=media&token=35dcd619-ef86-4491-ad27-c825fe7362aa",
+        "title": "43",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589385534842.jpg?alt=media&token=1abcf59a-aa4b-4142-8912-33bec9ef1a90"
+      },
+      "-M7DpdTei_K1gdPtw4Hw": {
+        "desc": "Calculate the power using recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FCalculate%20power%20using%20recursion.html?alt=media&token=246404be-bc43-46d9-b7ba-5feb1eda1c69",
+        "title": "44",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589386842164.jpg?alt=media&token=0247dacc-0160-4c3e-a630-81b38c7508b3"
+      },
+      "-M7DqaaMpC1wa_q2GBA7": {
+        "desc": "Reverse a String using recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FReverse%20a%20String%20using%20recursion.html?alt=media&token=549a7ed7-d944-4b43-9dc7-db0897cd8e72",
+        "title": "45",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589387092747.jpg?alt=media&token=eb66ae1f-7746-42e1-b8be-3de8e0d0766e"
+      },
+      "-M7DquELx9yUvziO4IKD": {
+        "desc": "Arrange numbers in ascending order",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Farrange%20numbers%20in%20ascending%20order.html?alt=media&token=c1982979-902f-44d4-900d-8cdbc64b87da",
+        "title": "46",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589387173563.jpg?alt=media&token=a734f93d-b2f5-4463-b833-6b2561bf7774"
+      },
+      "-M7DrjthcNkdD1Qy5yqU": {
+        "desc": "Largest element of an Array",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Flargest%20element%20of%20an%20Array.html?alt=media&token=8514cbb1-fd4e-46bb-8c2d-d4427e96e61f",
+        "title": "47",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589387392949.jpg?alt=media&token=831c5249-35dd-48b9-b3fd-649dab6092e8"
+      },
+      "-M7Ds30QCkFSPSqHlKso": {
+        "desc": "Size of an array",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fsize%20of%20an%20array.html?alt=media&token=b7a5ace5-4404-49ad-8187-004a1f2d5cf0",
+        "title": "48",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589387475572.jpg?alt=media&token=e19f3585-29a8-49ed-9ff7-a3ef668e64f3"
+      },
+      "-M7E1cvjEs4V39D1YcGb": {
+        "desc": "Calculate Average Using Arrays",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FCalculate%20Average%20Using%20Arrays.html?alt=media&token=516abd05-fa43-4a2b-9232-9505fa956f0b",
+        "title": "49",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390248117.jpg?alt=media&token=3c8f80ec-8088-472c-bc80-7186692a0f33"
+      },
+      "-M7E1nLwIfo28yDo33eE": {
+        "desc": "Add Two Matrices Using Arrays",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FAdd%20Two%20Matrices%20Using%20Multi-dimensional%20Arrays.html?alt=media&token=e10cc6da-c0c0-4de9-b6fb-c94e80a7fae4",
+        "title": "50",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390290899.jpg?alt=media&token=52244762-47c0-4ee8-9e46-1651d9b0ace4"
+      },
+      "-M7E2O41nGvGmi9fQ7tF": {
+        "desc": "Multiply Two Matrices Using Arrays",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FProgram%20to%20Multiply%20Two%20Matrices.html?alt=media&token=3264d2f3-6415-49e9-b8e0-e138aa97f08d",
+        "title": "51",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390445189.jpg?alt=media&token=164618e4-f221-4c0c-a121-8a1cb9f823b5"
+      },
+      "-M7E2XS8-ssV3UmHTIj5": {
+        "desc": "Find Transpose of a Matrix",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FFind%20Transpose%20of%20a%20Matrix.html?alt=media&token=07dff78c-6def-400c-9ce0-dde43cd45910",
+        "title": "52",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390483820.jpg?alt=media&token=9cac73e2-ca1f-413c-a5a4-9e65a337a410"
+      },
+      "-M7E2p4J1p_0i6yh2s9j": {
+        "desc": "Prime or Armstrong Number Using Function",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FCheck%20Prime%20and%20Armstrong%20Number.html?alt=media&token=c081bb7f-0296-4d65-a68c-d11851acedcc",
+        "title": "53",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390559916.jpg?alt=media&token=1cd02b36-cf14-4cde-ac47-ce3f6eba27a1"
+      },
+      "-M7E31l9I4XZ62K9kCzo": {
+        "desc": "Simple Calculator Using switch...case",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FSimple%20Calculator%20Using%20switch...case.html?alt=media&token=b76fb763-e011-4c50-87c2-5284dff1fcc1",
+        "title": "54",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390616348.jpg?alt=media&token=1d62552c-dabc-45b7-9196-d80a84fc1434"
+      },
+      "-M7E3KEM615qTBMH0AQr": {
+        "desc": "Sum of array elements using pointers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FSum%20of%20array%20elements%20using%20pointers.html?alt=media&token=98a709c4-a92c-42c5-8e50-4610d97db841",
+        "title": "55",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390691831.jpg?alt=media&token=6576e8cc-d87c-4269-ae63-2ad780094d4d"
+      },
+      "-M7E3RVNyXKgj9NKUvJ6": {
+        "desc": "Access Array Elements Using Pointers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FAccess%20Array%20Elements%20Using%20Pointers.html?alt=media&token=f1b20d69-c5ba-4666-8bc7-89c88712b9e4",
+        "title": "56",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390721402.jpg?alt=media&token=d314a360-c296-4ccb-8ab8-38fefbbb706f"
+      },
+      "-M7E3ddHON0V72VihfM-": {
+        "desc": "Swap Elements Using Call by Reference",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FSwap%20Elements%20Using%20Call%20by%20Reference.html?alt=media&token=61c8c2aa-dbb0-4c23-bb1a-9140190e008a",
+        "title": "57",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390775302.jpg?alt=media&token=a180fa59-dabd-4109-8997-5a645a6ea520"
+      },
+      "-M7E3q9UdejS1Nu11cFq": {
+        "desc": "Write a Sentence to a File",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FWrite%20a%20Sentence%20to%20a%20File.html?alt=media&token=3e65e445-2e1a-4556-a8d5-d7ab852ae879",
+        "title": "58",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390826500.jpg?alt=media&token=42fe8112-2089-4aca-ad92-15c712ec59aa"
+      },
+      "-M7E4-25SqkmAyqN2yM9": {
+        "desc": "Read text from a File and Display",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FRead%20text%20from%20a%20File%20%26%20Display.html?alt=media&token=23a3f8c1-56af-4731-8400-ee6c65fdddc0",
+        "title": "59",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589390867028.jpg?alt=media&token=2baff612-ed8a-4a95-a75b-2efad3c8da4c"
+      },
+      "-M7E5cEFrk7mT7EcGdAX": {
+        "desc": "Bubble sorting",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2Fbubble%20sorting.html?alt=media&token=d8d35cf3-20bd-451f-a80c-ae50e2b20168",
+        "title": "60",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589391293644.jpg?alt=media&token=56026795-ad87-46c9-8545-461896d21359"
+      },
+      "-M7E5t2fNxZOlSFK4Cip": {
+        "desc": "Insertion Sort",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FInsertion%20Sort.html?alt=media&token=d4953ed3-b970-4e13-a7d7-6befb5478b99",
+        "title": "61",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589391362556.jpg?alt=media&token=a64691ff-c3b8-48f2-a54e-5d1fec316879"
+      },
+      "-M7E65loLyy2d1dbbkOV": {
+        "desc": "Selection Sort",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FSelection%20Sort.html?alt=media&token=13bd58da-9f7c-44ae-a1b7-774319233704",
+        "title": "62",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589391418701.jpg?alt=media&token=c56e6207-bdb8-472e-8fc2-ecaf605745d3"
+      },
+      "-M7E6HPCXhxStLpFUZ3f": {
+        "desc": "Quick Sort",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FQuicksort.html?alt=media&token=282de914-2dba-4f0d-b747-f9a49462cc8e",
+        "title": "63",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589391466516.jpg?alt=media&token=4f7ce88d-abfd-4184-974e-c5d2ede1c8a1"
+      },
+      "-M7E6SLuC3NOOBeGt89C": {
+        "desc": "Convert Binary to Decimal Number",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fbasic%2FConvert%20Binary%20Number%20to%20Decimal%20Number.html?alt=media&token=ca343898-79da-4935-a73a-4b4fac749715",
+        "title": "64",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1589391511017.jpg?alt=media&token=e21aaa75-c45a-41ae-a267-5fe65351e472"
+      }
+    },
+    {
+      "-M7ItAiFXpU_XltKyber": {
+        "desc": "Binary Addition and Binary Subtraction",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FBinary%20Addition%20and%20Binary%20Subtraction.html?alt=media&token=839411ec-d9c7-4fc8-868d-12e8af8f115e",
+        "title": "1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589471654676.jpg?alt=media&token=406c5713-91b4-4afa-992d-c78b0fee843c"
+      },
+      "-M7ItZXSMKL9iVnSKIhn": {
+        "desc": "Check date is valid or not",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FCheck%20date%20is%20valid%20or%20not.html?alt=media&token=79fac59e-d1d0-40e5-bb56-be51d97af568",
+        "title": "2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589471756644.jpg?alt=media&token=42be161a-f5a4-43e5-b776-9b713ede34af"
+      },
+      "-M7ItjO2fEfa7lDjNCez": {
+        "desc": "Calculate Compound Interest",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FCompound%20Interest.html?alt=media&token=00beb97e-8b71-4983-a7a9-f9e6d6c03ab0",
+        "title": "3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589471801211.jpg?alt=media&token=de26411a-3686-4819-8ad6-b05b365faa14"
+      },
+      "-M7ItvSelrRNRwi4gst9": {
+        "desc": "Convert hexadecimal Byte to integer",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FConvert%20hexadecimal%20Byte%20to%20integer.html?alt=media&token=ae7da47c-0ac4-46c9-880e-1e191e25d995",
+        "title": "4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589471850520.jpg?alt=media&token=91cd673a-b302-4cf3-9d62-ebda096469d8"
+      },
+      "-M7Iu3oP7YQ6nVkuQFwk": {
+        "desc": "Design a digital clock",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FDesign%20a%20digital%20clock.html?alt=media&token=2fec1345-8cce-4bed-81ae-b80d3b684aaa",
+        "title": "5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589471889700.jpg?alt=media&token=a2a27c31-15ce-4802-8e19-c1702fa03457"
+      },
+      "-M7IuEUQQNlrFovwE6S4": {
+        "desc": "EMI Calculator",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FEMI%20Calculator.html?alt=media&token=ad13c9b1-e8cc-4e16-8f46-5138833e2d69",
+        "title": "6",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589471932690.jpg?alt=media&token=2ae4ac24-b78b-4fd2-a48a-081f72eec8c5"
+      },
+      "-M7IuOepBF4wFDgfZJvX": {
+        "desc": "Extract bytes from an integer (Hexadecimal) value",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FExtract%20bytes%20from%20an%20integer.html?alt=media&token=7343dc17-6cc5-432d-9753-e1b962a969c1",
+        "title": "7",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589471974735.jpg?alt=media&token=d36fa9a1-625c-473e-8c7c-39ee65fb711c"
+      },
+      "-M7IuXEry0ilCG16pbUV": {
+        "desc": "Find Multiplication of two Binary Numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FFind%20Multiplication%20of%20two%20Binary%20Numbers.html?alt=media&token=5c520905-9d49-40c2-8b5a-4d6d93cd700e",
+        "title": "8",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472009474.jpg?alt=media&token=9d4395cd-b1ed-467f-8f20-c307010f5530"
+      },
+      "-M7IujEf67EcNp6S1Jel": {
+        "desc": "Find Product of two Numbers using Recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FFind%20Product%20of%202%20Numbers%20using%20Recursion.html?alt=media&token=fa0d2bc4-3e4c-46d9-85cb-456f9728a2b6",
+        "title": "9",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472062674.jpg?alt=media&token=b01fa8d0-4d8b-4eab-b3bb-64b7154eac35"
+      },
+      "-M7IutMzmGzHt3ru_8Z3": {
+        "desc": "Find Sum of Digits of a Number using Recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FFind%20Sum%20of%20Digits%20of%20a%20Number%20using%20Recursion.html?alt=media&token=ea64698c-88bf-4931-a31c-3cd53b9f8b76",
+        "title": "10",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472104244.jpg?alt=media&token=86b4982d-25f9-4ba0-8b9d-895ba2df55f8"
+      },
+      "-M7Iv2cxGAtqS86Mwr8J": {
+        "desc": "Find Sum of N Numbers using Recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FFind%20Sum%20of%20N%20Numbers%20using%20Recursion.html?alt=media&token=68874f02-ae06-4ea6-b5e1-817e3c9cba9b",
+        "title": "11",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472146211.jpg?alt=media&token=e4b6ccfd-f7ed-413f-ae57-270acb4ab32c"
+      },
+      "-M7IvGLRnUvFdsvO-cpy": {
+        "desc": "Sum of two Binary Numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FFind%20the%20Sum%20of%20two%20Binary%20Numbers.html?alt=media&token=f3845b17-f1f3-45c2-9822-9e624659c303",
+        "title": "12",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472202398.jpg?alt=media&token=e74caeb0-f176-45a1-859c-199f615aba34"
+      },
+      "-M7IvOFtNd-n-byTPqdR": {
+        "desc": "Check date is valid or not",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FFormat%20extract%20ip%20address%20octets.html?alt=media&token=d97b7631-dac2-47ec-9ce4-be5c0bd762c8",
+        "title": "13",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472234601.jpg?alt=media&token=5d96825f-0928-42f4-83d8-5365e79d07e5"
+      },
+      "-M7IvWQiIT7y4Ydh_7tT": {
+        "desc": "Guess a random number",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FGuess%20a%20random%20number.html?alt=media&token=922d1c90-7589-472b-84f2-3f8a9e886320",
+        "title": "14",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472268266.jpg?alt=media&token=13ad9dd8-5f50-4c64-a207-d85b7a449331"
+      },
+      "-M7IvcxW4mnbc3BE_om0": {
+        "desc": "Illustrate how User Authentication is Done",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FIllustrate%20how%20User%20Authentication%20is%20Done.html?alt=media&token=74699583-9cc5-4067-a8bd-3a12e71acc95",
+        "title": "15",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472299528.jpg?alt=media&token=ad67c82b-a242-4469-88e2-21e9d5b5d9be"
+      },
+      "-M7Ivngq4j2dOqG7UoHq": {
+        "desc": "Prime or Not using Recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FPrime%20or%20Not%20using%20Recursion.html?alt=media&token=e36a1b15-a874-4bfa-9865-bfa6dce31ee1",
+        "title": "16",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472343152.jpg?alt=media&token=0600a349-6055-4658-a666-cebcf9d6dac0"
+      },
+      "-M7IvxO1jjM-QZ95skvU": {
+        "desc": "Print Binary Equivalent of an Integer using Recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FPrint%20Binary%20Equivalent%20of%20an%20Integer%20using%20Recursion.html?alt=media&token=5fd0a896-0391-4f1a-92af-a2b74cb6df59",
+        "title": "17",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472383190.jpg?alt=media&token=015fbc40-6ac0-4c9c-a5cc-fc47de3c83e0"
+      },
+      "-M7Iw5iocq-jyeKESldy": {
+        "desc": "Remove consecutive repeated characters from string",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2FRemove%20consecutive%20repeated%20characters%20from%20string.html?alt=media&token=d786f68b-849d-4f47-ade2-8a26b0d3dfd6",
+        "title": "18",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472421127.jpg?alt=media&token=53660811-58a2-4a94-b2eb-2a3890d62fdc"
+      },
+      "-M7IwIbXWQFYispCfc_A": {
+        "desc": "Print character without using format specifiers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2Fprint%20character%20without%20using%20format%20specifiers.html?alt=media&token=812fc7e3-f3eb-4864-87e9-3969c5c1fba5",
+        "title": "19",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472473877.jpg?alt=media&token=eacd3a0c-207d-49a5-8f26-8b19fa0d7863"
+      },
+      "-M7IwS71qwlkAONUY2KA": {
+        "desc": "Print weekday of given date",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fadvance%2Fadvance%20html%2Fweekday%20of%20given%20date.html?alt=media&token=99ead109-589b-4dd0-8c65-86464b0985d7",
+        "title": "20",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589472512755.jpg?alt=media&token=3f6ec8d4-b54a-4b31-bc9f-9e7482f168dd"
+      }
+    },
+    {
+      "-M7MZYLSCdDWId8483SC": {
+        "desc": "Print half pyramid using star",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Fhalf%20pyramid.html?alt=media&token=6302c7de-22c4-4e79-8ad1-4bc4b91023d2",
+        "title": "1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589533356130.png?alt=media&token=81ab5cf3-8e0f-4937-b04d-c196d53f5ef9"
+      },
+      "-M7M_ocEMxlKojz0tHOG": {
+        "desc": "Print half pyramid a using numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Fhalf%20pyramid%20num.html?alt=media&token=d771a43b-7f2a-40fe-91e2-c5d8e33eeabf",
+        "title": "2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589533689655.png?alt=media&token=61c3fb51-17a0-40f6-80ea-4a00c055cccc"
+      },
+      "-M7M_weQlP87VJ6BZo07": {
+        "desc": "Print half pyramid using alphabets",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Fhalf%20pyramid%20alf.html?alt=media&token=c874073c-cc5a-404f-8902-4ead0ae6363f",
+        "title": "3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589533722393.png?alt=media&token=6a315efa-5e33-4974-bc0c-4d2bbd7756fa"
+      },
+      "-M7MaGXC5Dszh2S3NTrj": {
+        "desc": "Inverted half pyramid using star",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2FInverted%20half.html?alt=media&token=36850d90-fcfc-4614-ac53-c3e01bc986c6",
+        "title": "4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589533807910.png?alt=media&token=b9e2fcbc-1be8-407b-964e-579e2b8ead37"
+      },
+      "-M7MaZi0OyycuCADf1hP": {
+        "desc": "Inverted half pyramid using numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2FInverted%20half%20num.html?alt=media&token=7127e582-617c-4169-925f-6b7def62b8fb",
+        "title": "5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589533886464.png?alt=media&token=dbcc4ef7-cabd-4da7-a106-ee4a6e1de76d"
+      },
+      "-M7MbS06xep3O6UfDS_r": {
+        "desc": "Print full pyramid using star",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Ffull%20pyramid.html?alt=media&token=5b5ed73e-a50b-4dfb-8ee9-70bd6f16d0ed",
+        "title": "6",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589534117022.png?alt=media&token=256bc262-9ac1-4446-9cb8-92a8d1e59531"
+      },
+      "-M7Mbfh1GMhqb2hjf4L2": {
+        "desc": "Print pyramid using numbers",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Ffull%20pyramid%20num.html?alt=media&token=4bcf66df-450a-4f2b-89a1-eb22c99c7e66",
+        "title": "7",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589534176602.png?alt=media&token=42a7e21d-6416-497d-846d-1122bfff4bfd"
+      },
+      "-M7MbtSfih3lSAkGTx5R": {
+        "desc": "Inverted full pyramid using star",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2FInverted%20full.html?alt=media&token=b4989eb5-708d-477b-b948-a29ddc83498c",
+        "title": "8",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589534233255.png?alt=media&token=c7b5e093-6887-45f2-b992-a4b0b2186f15"
+      },
+      "-M7Mc3xFGvXPeLocUn5w": {
+        "desc": "Print Pascal's triangle",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2FPascal's%20triangle.html?alt=media&token=976eebfc-cb87-4d83-986e-6e28c80faf9f",
+        "title": "9",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589534280712.png?alt=media&token=ad6cdb29-5a74-4f00-a654-87eed2e8ad3a"
+      },
+      "-M7McyUG3FRZW7CIV4Nt": {
+        "desc": "Print Floyd's Triangle",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2FFloyd's%20Triangle.html?alt=media&token=070e76eb-3011-4ac2-a110-eed58fad9d12",
+        "title": "10",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589534515871.png?alt=media&token=0b113b30-e715-432c-beb0-56d3aa17db73"
+      },
+      "-M7MdRIAJEvh8SRkRCrB": {
+        "desc": "Hollow rectangular using star",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Fhollow%20rectangle.html?alt=media&token=cf436c12-e6df-4075-9a6b-1d6a10450c54",
+        "title": "11",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589534638048.png?alt=media&token=e21365fd-aeab-4a79-8b26-3384e1600f3f"
+      },
+      "-M7Mdk-goKjLfDE_yg55": {
+        "desc": "Print hollow full pyramid using star",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Fhollow%20full.html?alt=media&token=2972cf0c-4fac-418c-b05c-436890b130c8",
+        "title": "12",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589534718807.png?alt=media&token=5092cb28-60f1-4e6b-a2fa-627dea18ba18"
+      },
+      "-M7Me25WQE1hZ3L_x8m6": {
+        "desc": "Print inverted half pyramid using star",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Fhollow%20inverted%20half.html?alt=media&token=2411be8b-ad56-48f1-9113-9331060d2e1b",
+        "title": "13",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589534797375.png?alt=media&token=cb6355b6-9f78-4746-87ee-2fbe9db2d7c1"
+      },
+      "-M7MljR0Hp7zpHtEXFwZ": {
+        "desc": "Print inverted hollow full pyramid",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Finverted%20hollow%20full.html?alt=media&token=407bdf58-357a-4e1e-b392-7f54289ef83b",
+        "title": "14",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589536814370.png?alt=media&token=19aa11c0-98df-47da-adc9-635e59c7a401"
+      },
+      "-M7Mn4xvUqRS3QNW3i47": {
+        "desc": "Print solid diamond pattern using stars",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Fsolid%20diamond.html?alt=media&token=6106e932-a27a-4a3c-8b54-ed54f8e60cca",
+        "title": "15",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589537168601.png?alt=media&token=7c00fbca-0202-41cb-919d-5ea62229fdb6"
+      },
+      "-M7MnNpDiz15nPS2IiDZ": {
+        "desc": "Print solid half diamond using star",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Fsolid%20half%20diamond.html?alt=media&token=78f913c9-3038-476c-89a0-092e5723a6fa",
+        "title": "16",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589537246064.png?alt=media&token=f5230cb4-2d15-4f0f-b442-798df7f8fe2c"
+      },
+      "-M7MnnlnXyVtKneSJ69F": {
+        "desc": "Print palindromic pattern printing in a half diamond",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fprogram%2Fpattern%2Fhtml%2Fpalindromic%20pattern.html?alt=media&token=6a5a2983-1bd9-4ef3-b3b0-e6dd037d78d6",
+        "title": "17",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589537356311.png?alt=media&token=62a38fc0-f9a2-4a5a-b692-9a449a02a0e4"
+      }
+    }
+  ],
+  "cprogramsecond": [
+    null,
+    {
+      "-M6pPaM_VgyhsOKUoZE-": {
+        "desc": "Overview of C Language",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2Foverview.html?alt=media&token=c251aa1c-d5b2-4cde-bbae-9ac8accd2368",
+        "title": "1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960327597.png?alt=media&token=4e0708b7-b768-4c07-a4fe-2a672df62b5c"
+      },
+      "-M6pPqv4dxaZKDRjdxU4": {
+        "desc": "First C Program",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2Ffirst_c_program.html?alt=media&token=1325d4d2-e3cb-4270-b2a8-6b76c94bc7fa",
+        "title": "2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960394833.png?alt=media&token=c6ec2efb-99f8-4dd2-8ac6-6b708932f2e9"
+      },
+      "-M6pQ2d9HmNp5p3ZoJV5": {
+        "desc": "Compile and Run C Program",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FCompile%20and%20Run%20C%20Program.html?alt=media&token=837012ab-b32d-417d-a79e-7b4df9536b4d",
+        "title": "3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960446888.png?alt=media&token=531bd6fe-64ca-4f63-a320-296241b3de76"
+      },
+      "-M6pQDzLnhf85SIZTtRi": {
+        "desc": "Basic Syntax Rules",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FBasic%20Syntax%20Rules.html?alt=media&token=e0af120f-de35-4ce1-a61e-7a7b3e07a6fb",
+        "title": "4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960493403.png?alt=media&token=dd1e132d-a9aa-414a-9323-e89fb8f8cd95"
+      },
+      "-M6pQSU8KZCmaNlC0_jt": {
+        "desc": "Keywords and Identifier",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2Fkeywords-and-identifier.html?alt=media&token=6331d6cf-3242-434b-89b4-dab7597713c3",
+        "title": "5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960553529.png?alt=media&token=0fba71a1-dcca-43bd-8e67-826a0bbbfc45"
+      },
+      "-M6pQa4QWXg7AE6K3tg8": {
+        "desc": "Operators",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FOperators.html?alt=media&token=6c5ad8fe-f5ad-4f66-bff4-34aab708e916",
+        "title": "6",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960588253.png?alt=media&token=3e7a1f68-a181-440d-a0dc-bc85050a5065"
+      },
+      "-M6pQzyXSnBRulb0YXx_": {
+        "desc": "Data Types in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2Fdata%20types.html?alt=media&token=1ea203ad-05f0-4777-a1f8-fbcd41b16505",
+        "title": "7",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960694200.png?alt=media&token=b3025f66-ce09-4f2a-ab6b-6b3ef3af2698"
+      },
+      "-M6pRB7SxTsMArpHNoIw": {
+        "desc": "Variables in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FVariables.html?alt=media&token=d802d537-0b12-4fdd-b657-4a158401be82",
+        "title": "8",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960743893.png?alt=media&token=a667bd54-49ed-4a41-8651-d38a2f88aba9"
+      },
+      "-M6pRMJXpCEbsNUdR65f": {
+        "desc": "C Input and Output",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FC%20Input%20and%20Output.html?alt=media&token=1d280027-b0e8-4d9b-bbea-950b8cf3d779",
+        "title": "9",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960789647.png?alt=media&token=750fa348-fe25-446f-a44c-c545c3f254ba"
+      },
+      "-M6pRaxqH-vdgRbyyF02": {
+        "desc": "Decision making in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FDecision%20making%20in%20C.html?alt=media&token=1a29a064-d5e3-436d-aa61-56987b9363d1",
+        "title": "10",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960853932.png?alt=media&token=4481ee08-061e-4c9a-b226-dfa7a20e10a5"
+      },
+      "-M6pS3xS1pdx-8kAji8X": {
+        "desc": "Switch Statement in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FSwitch%20statement%20in%20C.html?alt=media&token=3fe85b1f-d78b-4ff9-adff-f7b2a1f28384",
+        "title": "11",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588960975287.png?alt=media&token=f070a970-1497-47bb-b72d-ef7d3d9995c9"
+      },
+      "-M6pSG6B79MOWECuR77s": {
+        "desc": "Loops in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FLoops%20in%20C.html?alt=media&token=9b0386d4-e067-439f-adea-5558f9562000",
+        "title": "12",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588961026012.png?alt=media&token=630e2d0c-cae8-40ad-b485-5341af2cd436"
+      },
+      "-M6pSS9XoEL-iq1dR2La": {
+        "desc": "Arrays in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FArrays.html?alt=media&token=13bfd995-8d1d-4771-9274-91898f61a514",
+        "title": "13",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588961075369.png?alt=media&token=72f664a4-4d70-46c6-8feb-c6743379eb71"
+      },
+      "-M6pSeSvYu5hqRycdqsN": {
+        "desc": "String and Character Array",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FString%20and%20Character%20Array.html?alt=media&token=5d5910d1-9228-4609-9be8-b59fb3927770",
+        "title": "14",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588961130366.png?alt=media&token=96eb9e7a-f8cf-45c1-a533-4737fb2a9b93"
+      },
+      "-M6pSwxNbMII3PWdTimD": {
+        "desc": "Storage classes in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fbasic%2FStorage%20classes.html?alt=media&token=4cdc9524-c433-4533-8514-e2b1de4a96ce",
+        "title": "15",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/1%2F1588961206248.png?alt=media&token=d7eae879-6009-4975-a03e-87cabbcf31c8"
+      }
+    },
+    {
+      "-M6z_vkp_YSIpVuhbLdq": {
+        "desc": "Functions in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Ffunction%2FFunctions%20in%20C.html?alt=media&token=af93d1d4-9586-4e59-8b5e-760df8234cc8",
+        "title": "1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589131065806.png?alt=media&token=56968a19-bef5-42c7-b16c-1ae91719c7e1"
+      },
+      "-M6zaxhIwZY4oTxAkl6k": {
+        "desc": "Type of Functions & Recursion",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Ffunction%2FType%20of%20User-defined%20Functions.html?alt=media&token=48b231d5-3efc-4452-9c73-8e6636b6ec26",
+        "title": "2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589131336290.png?alt=media&token=b9473e73-c258-4b98-a932-e902c6d8a44a"
+      },
+      "-M6zbCmPX-TcLR4gA6oY": {
+        "desc": "Types of Function calls",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Ffunction%2FTypes%20of%20Function%20calls%20in%20C.html?alt=media&token=faa44349-4bfd-4da0-9ac2-942dd729832d",
+        "title": "3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589131401746.png?alt=media&token=62e8be60-5d1a-4b6f-bba6-eddf9ff59f6e"
+      },
+      "-M6zbiF9VL99veG4ZlC0": {
+        "desc": "Passing Array to Function",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Ffunction%2FHow%20to%20pass%20Array%20to%20a%20Function.html?alt=media&token=4c7ab54d-7e63-4650-a65b-c1e611fe4e12",
+        "title": "4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589131534914.png?alt=media&token=6c5502b2-8cbc-4e18-b213-e530e4b51108"
+      },
+      "-M6zc8FFUmQZcHWkrEb8": {
+        "desc": "Structure in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Ffunction%2FIntroduction%20to%20Structure.html?alt=media&token=fa3511cf-6f20-4688-ac46-6f0e27389c40",
+        "title": "5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589131645091.png?alt=media&token=43cdc855-8b81-4429-b38d-d0a3ae367d7f"
+      },
+      "-M6zcbNGDJeFIW91_uzM": {
+        "desc": "typedef in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Ffunction%2Ftypedef%20in%20C.html?alt=media&token=84b8e76c-b065-4ab9-8fd6-36b8dc5c100b",
+        "title": "6",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589131768535.png?alt=media&token=eb814633-d87e-4979-bdbf-de70b8f8594a"
+      },
+      "-M6zcnK2NWDwG-DP0FcA": {
+        "desc": "Unions in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Ffunction%2FUnions%20in%20C%20Language.html?alt=media&token=1822ab7a-1a54-4d22-89da-89c765ddad9e",
+        "title": "7",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/2%2F1589131818016.png?alt=media&token=e8b5dab8-9221-420d-b572-261e35016fcb"
+      }
+    },
+    {
+      "-M70m3Ibs2TTAsa5z0zn": {
+        "desc": "Pointers in C",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2Fintro%20to%20pointer.html?alt=media&token=c0979d95-c2a5-4f9d-b01c-67ab065e6e30",
+        "title": "1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589167800744.jpg?alt=media&token=0148dd78-8780-490e-968a-293452aafa98"
+      },
+      "-M70mTFstLJJkkdV49f6": {
+        "desc": "Declaring & Initializing",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2FDeclaring%20Initializing.html?alt=media&token=afdbb52e-ece2-478a-b302-38e54d9ca5c4",
+        "title": "2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589167907675.jpg?alt=media&token=0642614d-0913-4c32-ba97-de1524d8e2b1"
+      },
+      "-M70mn2tuSsB7YOKpZzB": {
+        "desc": "Pointer to a Pointer",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2FPointer%20to%20a%20Pointer.html?alt=media&token=021384b6-0ade-4009-bf77-69e573af2284",
+        "title": "3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589167992544.jpg?alt=media&token=2298f7a6-7a23-4a1b-a3a3-b1f94f050010"
+      },
+      "-M70mzvSXihQiLOZ9RlV": {
+        "desc": "Pointer to Array",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2FPointer%20and%20Arrays.html?alt=media&token=6f24c4eb-b663-4f45-be15-60ed038d4406",
+        "title": "4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589168045536.jpg?alt=media&token=c4b03b47-716e-4848-85f6-fb6d5792ba7b"
+      },
+      "-M70nKMC45-kxQ_DfAN9": {
+        "desc": "Pointer to Structure Array",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2FPointer%20to%20Structure%20Array.html?alt=media&token=8f163274-faf5-467b-87ad-18beb8461be4",
+        "title": "5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589168132982.jpg?alt=media&token=d110bce1-06cf-4041-930e-a575f5c079a9"
+      },
+      "-M70p89xgGZUrZtZ_Uu5": {
+        "desc": "Pointer Arithmetic",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2FPointer%20Arithmetic.html?alt=media&token=64cd1811-f69d-44d7-bcfe-99ab04106421",
+        "title": "6",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589168608006.jpg?alt=media&token=11a1404b-db6b-46e4-ade0-7b0d49175d58"
+      },
+      "-M70pHS2dQh7jMG5G14q": {
+        "desc": "Pointer with Functions",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2FPointers%20as%20Function%20Argument.html?alt=media&token=afec6266-72c8-4849-8d94-624b3e60c797",
+        "title": "7",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589168645303.jpg?alt=media&token=eefa2848-1393-4447-b90b-790d0d3cff7c"
+      },
+      "-M71edE0G6GtZHtOVxGN": {
+        "desc": "File Handling",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2FFile%20handling.html?alt=media&token=dd90fdb8-8f3b-4d7f-bfdc-13b0986d6d50",
+        "title": "8",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589182632061.jpg?alt=media&token=dcba7dea-240d-4c25-bc51-5536631ddaeb"
+      },
+      "-M71f-0VFbVDalfMv2G9": {
+        "desc": "Error Handling",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2FError%20Handling%20in%20C.html?alt=media&token=fba2d648-63f9-4ff8-a48c-3b522fd39624",
+        "title": "9",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589182725359.jpg?alt=media&token=6cbc90ff-c71b-4c1d-8d17-6b54fe08567a"
+      },
+      "-M71fDXvwNj7BmKLxZUV": {
+        "desc": "Dynamic Memory Allocation",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2FDynamic%20Memory%20Allocation%20in%20C.html?alt=media&token=31e9a4e8-f550-4b5f-86e0-f167b13c1abd",
+        "title": "10",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589182785280.jpg?alt=media&token=36d013f3-6750-4d87-87d4-546ce0157c19"
+      },
+      "-M71fPRJMoLwD5Dzve17": {
+        "desc": "Command Line Argument",
+        "htmlurl": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/C%2Fpointer%2FCommand%20Line%20Argument%20in%20C.html?alt=media&token=88770965-6929-4b57-ab29-fa0ea651eded",
+        "title": "11",
+        "url": "https://firebasestorage.googleapis.com/v0/b/next-step-tutorials.appspot.com/o/3%2F1589182833862.jpg?alt=media&token=ee25da16-271f-498a-84ec-16c956e96b41"
+      }
+    }
+  ]
+}
